@@ -1,3 +1,7 @@
+// Make function available globally
+function adPerformanceReport(){
+  this.main = function() {
+
 // Copyright 2015, Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -169,3 +173,6 @@ function getDateStringInTimeZone(format, date, timeZone) {
   timeZone = timeZone || AdWordsApp.currentAccount().getTimeZone();
   return Utilities.formatDate(date, timeZone, format);
 }
+
+
+}}
