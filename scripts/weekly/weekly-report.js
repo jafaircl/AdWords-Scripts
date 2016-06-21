@@ -1,9 +1,33 @@
 /**
  * @name Weekly Performance Report
  *
- * @overview This is a combination of several scripts to be run on a
- *        weekly basis. Credit will be added here.
- *
+ * @overview This is a combination of Google AdWords scripts combined to create and e-mail a Google
+ * 	Sheets spreadsheet. It will also run tests and apply labels for statistically significant
+ * 	ad test winners and for underperforming keywords.
+ * 	- Ad Performance Report
+ * 		@author AdWords Scripts Team
+ * 		@url https://developers.google.com/adwords/scripts/docs/solutions/account-summary
+ * 	- Keyword Performance Report
+ * 		@author AdWords Scripts Team
+ * 		@url https://developers.google.com/adwords/scripts/docs/solutions/keyword-performance
+ * 	- Declining Ad Groups
+ * 		@author AdWords Scripts Team
+ * 		@url https://developers.google.com/adwords/scripts/docs/solutions/declining-adgroups
+ * 	- Keyword Labeler
+ * 		@author AdWords Scripts Team
+ * 		@url https://developers.google.com/adwords/scripts/docs/solutions/labels
+ * 	- Negative Keyword Conflicts (Could also be run daily)
+ * 		@author AdWords Scripts Team
+ * 		@url https://developers.google.com/adwords/scripts/docs/solutions/negative-keyword-conflicts
+ * 	- Display Placement Monitoring
+ * 		@author Derek Martin
+ * 		@url https://gist.github.com/derekmartinla/06e51b8a4298b8bbb8ff
+ * 	- Search Query Mining
+ * 		@author Brainlabs Digital
+ * 		@url https://www.brainlabsdigital.com
+ * 	- Statistically Significant Ad Creative Testing
+ * 		@author Russell Savage
+ * 		@url http://www.freeadwordsscripts.com/2013/12/automated-creative-testing-with.html
  *
  * @version 1.0
  */
