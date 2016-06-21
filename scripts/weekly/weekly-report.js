@@ -1487,8 +1487,7 @@ function sendMailForTouchedAdGroups(ags,finishedEarly) {
   var options = { 
     htmlBody : htmlBody,
   };
-  var subject = ags.length + ' Creative Test(s) Completed - ' + 
-    Utilities.formatDate(new Date(), AdWordsApp.currentAccount().getTimeZone(), 'yyyy-MM-dd');
+  var subject = ags.length + ' Creative Test(s) Completed in ' + accountName + ' - ' + Utilities.formatDate(new Date(), AdWordsApp.currentAccount().getTimeZone(), 'yyyy-MM-dd');
   MailApp.sendEmail(RECIPIENT_EMAIL, subject, ags.length+' AdGroup(s) have creative tests that have finished.', options);
 }
  
